@@ -1,9 +1,9 @@
 #include<stdio.h>
-void Double(int* A,int size)
+void Double(int* A,int size)   // simply A[] can also taken as pointer
 {
     int i;
     for(i=0;i<size;i++){
-    A[i] = 2 * A[i];
+    A[i] = 2 * A[i];     //A[i]  or *(A+i)
     }
 }
 int main(){
