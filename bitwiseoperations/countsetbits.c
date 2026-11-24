@@ -7,7 +7,7 @@ int main(){
 
     while(n!=0)
     {
-        n = n & (n-1);
+        n = n & (n-1);    //Brian Kernighan’s algorithm
         count++;
     }
     printf("the number of set bits is %d",count);
